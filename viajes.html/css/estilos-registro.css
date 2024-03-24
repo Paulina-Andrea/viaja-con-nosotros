@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #ad5389ee;  
+    /* fallback for old browsers */
+    background: linear-gradient(to right, #3b105356, #ad538963), url(../Img/imagenRE.png);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b105356, #ad538952), url(../Img/imagenRE.png);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario{
+    background: #ffffff38;
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+    color: #050505;
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 20px;
+    border-top: #999;
+    position: relative;
+
+}
+
+.input-contenedor{
+    margin-bottom: 15px;
+    color: transparent;
+    
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #642a73;
+    position: absolute;
+    margin-top: 12px;
+    z-index: 100000;
+}
+
+.cont-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(to right, #3b1053ad, #ad5389ad);
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+
+.button:hover{
+    background: #642a73;
+
+}
+
+p{
+    text-align: center;
+}
+
+.link{
+    font-weight: 600;
+    text-decoration: none;
+      color: #000000
+}
+
+.link:hover{
+    background: #3b1053d0;
+}
+
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 100px;
+        border-radius: 20px;
+    }
+}
+
+
+
+
+
+
